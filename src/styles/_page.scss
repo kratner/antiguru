@@ -38,6 +38,22 @@ html {
             list-style: none;
             padding-left: 1em;
         }
+        .nav {
+            float: left;
+            a {
+                text-decoration: none;
+                &:visited {
+                    color: $base-font-visited-color;
+                }
+                &:hover {
+                    color: $base-font-hover-color;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .logo {
+            float: right;
+        }
     }
   }
 }
