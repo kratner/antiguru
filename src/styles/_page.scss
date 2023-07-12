@@ -41,6 +41,7 @@ html {
         .nav {
             float: left;
             a {
+                font-size: 5vh;
                 text-decoration: none;
                 &:visited {
                     color: $base-font-visited-color;
