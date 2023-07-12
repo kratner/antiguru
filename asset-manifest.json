@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/antiguru/static/css/main.5970a38a.css",
-    "main.js": "/antiguru/static/js/main.add97ca8.js",
+    "main.js": "/antiguru/static/js/main.33c84988.js",
     "static/js/787.cb15e092.chunk.js": "/antiguru/static/js/787.cb15e092.chunk.js",
     "static/media/antiguru.svg": "/antiguru/static/media/antiguru.ebcf65e87e5c866fa779e54dceb2bb1f.svg",
     "index.html": "/antiguru/index.html",
     "main.5970a38a.css.map": "/antiguru/static/css/main.5970a38a.css.map",
-    "main.add97ca8.js.map": "/antiguru/static/js/main.add97ca8.js.map",
+    "main.33c84988.js.map": "/antiguru/static/js/main.33c84988.js.map",
     "787.cb15e092.chunk.js.map": "/antiguru/static/js/787.cb15e092.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5970a38a.css",
-    "static/js/main.add97ca8.js"
+    "static/js/main.33c84988.js"
   ]
 }
