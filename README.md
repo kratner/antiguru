@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Anti-Guru
+
+View the project here: <a href="https://kratner.github.io/antiguru/" target="_blank">https://kratner.github.io/antiguru/</a>
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn start` or `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

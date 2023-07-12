@@ -1,14 +1,13 @@
 import React from 'react';
-import logo from './assets/antiguru.svg';
 import "./styles/main.scss";
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <img src={logo} className="logo" alt="AntiGuru" title="AntiGuru" />
-        <div className='tagline'>We're taking you out of the rabbit hole.</div>
-      </header>
+      <Header />
+      <Footer />
     </div>
   );
 }
