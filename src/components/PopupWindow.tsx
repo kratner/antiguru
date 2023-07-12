@@ -14,7 +14,7 @@ const PopupWindow: React.FC<PopupWindowProps> = ({
   content,
   width = '75%',
   height = '75%',
-  background = '#000',
+  background = 'rgba(0, 0, 0, 0.8)',
   padding = '1em'
 }) => {
   const [isOpen, setIsOpen] = useState(false);
