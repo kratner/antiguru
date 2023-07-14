@@ -7,7 +7,7 @@ import PopupWindow from './PopupWindow';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="nav">
+      {/* <div className="nav">
         <ul>
           <li>
             <PopupWindow triggerElement={<a href="#">About</a>} content={<AboutPage />} />
@@ -16,7 +16,7 @@ const Footer = () => {
             <PopupWindow triggerElement={<a href="#">Get Involved</a>} content={<GetInvolved />} />
           </li>
         </ul>
-      </div>
+      </div> */}
       <div>
         <img src={logo} className="logo" alt="AntiGuru" title="AntiGuru" />
       </div>
