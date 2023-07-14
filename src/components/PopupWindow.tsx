@@ -32,6 +32,7 @@ const PopupWindow: React.FC<PopupWindowProps> = ({
       <div onClick={openPopup}>{triggerElement}</div>
       {isOpen && (
         <div
+          className='popup-window'
           style={{
             position: 'fixed',
             top: '50%',
@@ -40,7 +41,7 @@ const PopupWindow: React.FC<PopupWindowProps> = ({
             width,
             height,
             background: background,
-            borderRadius: '8px',
+            borderRadius: '1em',
             boxShadow: '0 2px 8px rgba(0, 0, 0, 0.15)',
             overflow: 'auto',
             zIndex: 9999,
