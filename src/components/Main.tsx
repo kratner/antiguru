@@ -1,11 +1,9 @@
 import ACastAudio from "./ACastAudio";
 import YouTubeVideo from "./YouTubeVideo";
-import GooglePodcast from "./GooglePodcast";
 
 const Main = () => {
 
 
-  const episodeId = 'have-luft-and-comer-jeopardized-homeland-118948385';
   return (
     <main className="main">
         <h2>The Latest</h2>

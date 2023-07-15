@@ -1,14 +1,15 @@
 import React from 'react';
 
 interface GooglePodcastProps {
+  feed: string;
   episodeId: string;
 }
 
-const GooglePodcast: React.FC<GooglePodcastProps> = ({ episodeId }) => {
+const GooglePodcast: React.FC<GooglePodcastProps> = ({ feed, episodeId }) => {
   return (
     <iframe
       title="Google Podcasts"
-      src={`https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8=${episodeId}`}
+      src={`https://www.google.com/podcasts?feed=${feed}=${episodeId}`}
       width="100%"
       height="200"
       frameBorder="0"
